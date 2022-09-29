@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/sfv_logo_image3"
+            android:layout_width="427dp"
+            android:layout_height="104dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sfv_logo" />
+
+        <ImageView
+            android:id="@+id/kontaktdaten_image3"
+            android:layout_width="420dp"
+            android:layout_height="158dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/kontaktdaten_login" />
+
+        <Button
+            android:id="@+id/mitglieder_button4"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#21651C"
+            android:text="Mitgliederbereich"
+            android:textColor="@color/white"
+            android:textSize="6sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sfv_logo_image3" />
+
+        <Button
+            android:id="@+id/einladung_button4"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#21651C"
+            android:text="Einladungen"
+            android:textColor="#8BC34A"
+            android:textSize="6sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mitglieder_button4" />
+
+        <Button
+            android:id="@+id/rundschreiben_button4"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#21651C"
+            android:text="Rundschreiben"
+            android:textSize="6sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/einladung_button4" />
+
+        <Button
+            android:id="@+id/anmelden_button4"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#21651C"
+            android:text="Berichte"
+            android:textSize="6sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.383" />
+
+        <Button
+            android:id="@+id/regelungen_button4"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#21651C"
+            android:text="Regelungen"
+            android:textSize="6sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/anmelden_button4" />
+
+        <Button
+            android:id="@+id/download_button4"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#21651C"
+            android:text="Downloads"
+            android:textSize="6sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/regelungen_button4" />
+
+        <Button
+            android:id="@+id/satzung_sfv_button4"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#21651C"
+            android:text="Satzung SFV"
+            android:textSize="6sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/download_button4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

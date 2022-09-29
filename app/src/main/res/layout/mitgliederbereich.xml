@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/sfv_logo_image2"
+            android:layout_width="427dp"
+            android:layout_height="104dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sfv_logo" />
+
+        <ImageView
+            android:id="@+id/kontaktdaten_image2"
+            android:layout_width="420dp"
+            android:layout_height="158dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/kontaktdaten_login" />
+
+        <TextView
+            android:id="@+id/mitgliederbereich_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Mitgliederbereich"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sfv_logo_image2" />
+
+        <TextView
+            android:id="@+id/vorstellungstext"
+            android:layout_width="251dp"
+            android:layout_height="397dp"
+            android:layout_marginEnd="24dp"
+            android:text="Herzlich willkommen im Mitgliederbereich der SFV-Homepage,\n\nhier finden Sie Vereinsinterne Informationen wie Einladungen zu den Versammlungen und Rundschreiben.\n\nAber auch detaillierte Informationen zu diversen Regelungen, die Sie weder auf ihrem Erlaubnisschein noch in der Vereinssatzung finden, wie z.B. Vorgaben zum Standbau am Altwasser oder alles rund um die Boote am Rathjens.\n\nFür weitere Fragen und Anregungen stehen wir ihnen wie gewohnt, während der Geschäftszeiten im Büro auf dem Gelände der Fischzuchtanlage, zur Verfügung.\n\nMit freundlichen Grüßen \n\nIhr SFV Wörth Vorstandschafts-Team"
+            app:layout_constraintBottom_toTopOf="@+id/kontaktdaten_image2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.919"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mitgliederbereich_text"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/mitglieder_button"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#21651C"
+            android:text="Mitgliederbereich"
+            android:textColor="#8BC34A"
+            android:textSize="6sp"
+            app:layout_constraintEnd_toStartOf="@+id/vorstellungstext"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sfv_logo_image2" />
+
+        <Button
+            android:id="@+id/einladung_button"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#21651C"
+            android:text="Einladungen"
+            android:textSize="6sp"
+            app:layout_constraintEnd_toStartOf="@+id/vorstellungstext"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mitglieder_button" />
+
+        <Button
+            android:id="@+id/rundschreiben_button"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#21651C"
+            android:text="Rundschreiben"
+            android:textSize="6sp"
+            app:layout_constraintEnd_toStartOf="@+id/vorstellungstext"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/einladung_button" />
+
+        <Button
+            android:id="@+id/anmelden_button11"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:backgroundTint="#21651C"
+            android:text="Berichte"
+            android:textSize="6sp"
+            app:layout_constraintEnd_toStartOf="@+id/vorstellungstext"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/einladung_button" />
+
+        <Button
+            android:id="@+id/regelungen_button"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="88dp"
+            android:backgroundTint="#21651C"
+            android:text="Regelungen"
+            android:textSize="6sp"
+            app:layout_constraintEnd_toStartOf="@+id/vorstellungstext"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/einladung_button" />
+
+        <Button
+            android:id="@+id/download_button"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="132dp"
+            android:backgroundTint="#21651C"
+            android:text="Downloads"
+            android:textSize="6sp"
+            app:layout_constraintEnd_toStartOf="@+id/vorstellungstext"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/einladung_button" />
+
+        <Button
+            android:id="@+id/satzung_sfv_button"
+            android:layout_width="109dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="176dp"
+            android:backgroundTint="#21651C"
+            android:text="Satzung SFV"
+            android:textSize="6sp"
+            app:layout_constraintEnd_toStartOf="@+id/vorstellungstext"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/einladung_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

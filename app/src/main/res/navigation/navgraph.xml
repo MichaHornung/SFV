@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/login">
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.sfv.ui.Login"
+        android:label="Login" >
+        <action
+            android:id="@+id/action_login_to_mitgliederBereich"
+            app:destination="@id/mitgliederBereich" />
+    </fragment>
+    <fragment
+        android:id="@+id/mitgliederBereich"
+        android:name="com.example.sfv.ui.MitgliederBereich"
+        android:label="MitgliederBereich" />
+</navigation>
